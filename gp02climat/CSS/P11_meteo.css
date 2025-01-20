@@ -1,0 +1,133 @@
+html {
+  height:100%;
+  background: #272935;
+  color: #98AFF5;
+  overflow-y: unset;
+}
+
+body {
+  height : 100%;
+}
+
+a:link {
+	color: fuchsia;
+}
+
+a:visited {
+	font-style: italic;
+	color: #DBAF1F;
+}
+
+.rouge {
+	color: red;
+}
+
+input.rouge {
+	color : #fff;
+	background-color: #dc3545;
+	border-color: #dc3545;
+}
+
+input.rouge:hover {
+	color : #fff;
+	background-color: #bb2d3b;
+	border-color: #b02a37;
+}
+
+.vert {
+	color: green;
+}
+
+input.vert {
+	color : #fff;
+	background-color: #35dc45;
+	border-color: #35dc45;
+}
+
+input.vert:hover {
+	color : #fff;
+	background-color: #157347;
+	border-color: #146c43;
+}
+
+#titre {
+  padding: 0;
+  height: 15%;
+}
+
+h1 {
+	text-align: center;
+}
+
+h1 + h1 {
+	font-size: xx-large;
+	border-style: dashed;
+	border-width: 10px;
+}
+
+.section {
+	border-style: solid;
+	border-width: 2px;
+}
+
+.maClasse {
+	border-style: dotted;
+	border-width: 2px;
+	border-color: fuchsia;
+	font-family: cursive;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+#body {
+  height: 77%;
+  overflow-y: scroll;
+}
+
+#menu {
+  float : left;
+  font-size: smaller;
+  width : 200px;
+  overflow-x: scroll;
+  height: 100%;
+}
+
+#menuIndex {
+}
+
+#contenu {
+  height: 100%;
+  overflow: scroll;
+  text-align: justify;
+}
+
+#auteurs {
+  height: 8%;
+	font-size: x-small;
+	font-family: arial;
+	font-weight: bolder;
+	font-variant: small-caps;
+}
+
+address {
+	text-align: right;
+	font-size: xx-small;
+  font-style: italic;
+}
+
+p {
+	text-indent: 5%;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border : thin solid black;
+  border-collapse : collapse;
+}
+
+th, td {
+	border-style: solid;
+	border-width: thin;
+	text-align: center;
+}
